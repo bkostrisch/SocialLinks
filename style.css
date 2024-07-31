@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@100..900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zain", sans-serif;
+
+}
+
+html{
+
+    height: 100vh;
+
+}
+
+body{
+
+    background: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+
+.container {
+
+    max-width: 400px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #FFFFFF86;
+    display: flex;
+    flex-direction: column;
+    color: #303030;
+    height: 100%;
+
+}
+
+.profile{
+
+    display: flex;
+    margin: 50px auto;
+    border-radius: 50%;
+    width: 200px;
+
+}
+
+.gradient{
+    background: linear-gradient(125deg, #fff1e2, pink);
+
+}
+
+.username{
+
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.description {
+
+    font-size: 1em;
+    text-align: center;
+
+}
+
+li {
+    list-style: none;
+}
+
+.list {
+
+    display: flex;
+    flex-direction: column;
+    margin: 2em 1em;
+    gap: 1.2em;
+}
+
+.list-item {
+    font-size: 1.2em;
+    height: 3em;
+    border-radius: 2em;
+    display: flex;
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.link {
+    display: flex;
+    padding: 0 45px;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 1px rgb(189, 178, 145);
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+}
+
+.link-images {
+
+    width: 30px;
+
+}
+
+footer {
+
+    display: flex;
+    gap: 1.5em;
+
+}
+
+.contact {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+    
